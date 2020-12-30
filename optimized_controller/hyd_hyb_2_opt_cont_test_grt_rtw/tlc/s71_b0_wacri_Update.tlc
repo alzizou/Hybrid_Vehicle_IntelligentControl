@@ -1,0 +1,66 @@
+%implements s71_b0_wacri_Update "C"
+
+%function Update(block, system) Output
+%assign tlcUpdateFcnOfS53B27 = OpaqueTLCBlockFcn("Update", 53, 27)
+%assign tlcUpdateFcnOfS53B51 = OpaqueTLCBlockFcn("Update", 53, 51)
+%assign tlcUpdateFcnOfS53B52 = OpaqueTLCBlockFcn("Update", 53, 52)
+%assign tlcUpdateFcnOfS53B57 = OpaqueTLCBlockFcn("Update", 53, 57)
+%assign tlcUpdateFcnOfS53B168 = OpaqueTLCBlockFcn("Update", 53, 168)
+if (%<(SLibCGIRIsSampleHit(1, 53))>) {
+    /* Update for Memory: '<S11>/Memory' */
+
+%<SLibCG_SetDWV(12, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(148, 0, 53, 1, "", -1, "", 0))>")>\
+    /* Update for Memory: '<S5>/Memory1' */
+
+%<SLibCG_SetDWV(13, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(151, 0, 53, 1, "", -1, "", 0))>")>\
+
+}
+
+%<tlcUpdateFcnOfS53B27>\
+
+if (%<(SLibCGIRIsSampleHit(1, 53))>) {
+    /* Update for Memory: '<S4>/Memory3' */
+
+%<SLibCG_SetDWV(14, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(199, 0, 53, 1, "", -1, "", 0))>")>\
+    /* Update for Memory: '<S68>/Memory' */
+
+%<SLibCG_SetDWV(15, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(192, 0, 53, 1, "", -1, "", 0))>")>\
+    /* Update for Memory: '<S68>/Memory1' */
+
+%<SLibCG_SetDWV(16, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(191, 0, 53, 1, "", -1, "", 0))>")>\
+    /* Update for Memory: '<S13>/Memory' */
+
+%<SLibCG_SetDWV(17, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(149, 0, 53, 1, "", -1, "", 0))>")>\
+
+}
+
+%<tlcUpdateFcnOfS53B51>\
+
+%<tlcUpdateFcnOfS53B52>\
+
+if (%<(SLibCGIRIsSampleHit(1, 53))>) {
+    /* Update for Memory: '<S7>/Memory2' */
+
+%<SLibCG_SetDWV(18, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(186, 0, 53, 1, "", -1, "", 0))>")>\
+}
+
+%<tlcUpdateFcnOfS53B57>\
+
+if (%<(SLibCGIRIsSampleHit(1, 53))>) {
+    /* Update for Memory: '<S7>/Memory' */
+
+%<SLibCG_SetDWV(19, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(184, 0, 53, 1, "", -1, "", 0))>")>\
+
+}
+%<tlcUpdateFcnOfS53B168>\
+
+if (%<(SLibCGIRIsSampleHit(1, 53))>) {
+    /* Update for Memory: '<S4>/Memory1' */
+
+%<SLibCG_SetDWV(20, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(198, 0, 53, 1, "", -1, "", 0))>")>\
+    /* Update for Memory: '<S4>/Memory2' */
+
+%<SLibCG_SetDWV(21, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_BOV(195, 0, 53, 1, "", -1, "", 0))>")>\
+
+}
+%endfunction

@@ -1,0 +1,65 @@
+CC     = "C:\Program Files\MATLAB\R2013b\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "C:\Program Files\MATLAB\R2013b\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "C:\Program Files\MATLAB\R2013b\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -DMX_COMPAT_32 -nodeclspec 
+LDFLAGS = -s -dll -L"C:\Program Files\MATLAB\R2013b\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"hyd_hyb_2_int_cont_Final_sfun.obj"\
+	"c1_hyd_hyb_2_int_cont_Final.obj"\
+	"c2_hyd_hyb_2_int_cont_Final.obj"\
+	"c3_hyd_hyb_2_int_cont_Final.obj"\
+	"c4_hyd_hyb_2_int_cont_Final.obj"\
+	"c5_hyd_hyb_2_int_cont_Final.obj"\
+	"c6_hyd_hyb_2_int_cont_Final.obj"\
+	"c7_hyd_hyb_2_int_cont_Final.obj"\
+	"c8_hyd_hyb_2_int_cont_Final.obj"\
+	"c10_hyd_hyb_2_int_cont_Final.obj"\
+	"c36_hyd_hyb_2_int_cont_Final.obj"\
+	"hyd_hyb_2_int_cont_Final_sfun_registry.obj"\
+	"lccstub.obj"\
+	"hyd_hyb_2_int_cont_Final_sfun.def"\
+	"C:\Program Files\MATLAB\R2013b\stateflow\c\mex\lib\win64\sfc_mexlcc64.lib"\
+	"C:\Program Files\MATLAB\R2013b\stateflow\c\debugger\lib\win64\sfc_debuglcc64.lib"\
+	"C:\Program Files\MATLAB\R2013b\extern\lib\win64\microsoft\libmwblas.lib"\
+	"C:\Program Files\MATLAB\R2013b\extern\lib\win64\microsoft\libmx.lib"\
+	"C:\Program Files\MATLAB\R2013b\extern\lib\win64\microsoft\libmex.lib"\
+	"C:\Program Files\MATLAB\R2013b\extern\lib\win64\microsoft\libmat.lib"\
+	"C:\Program Files\MATLAB\R2013b\extern\lib\win64\microsoft\libfixedpoint.lib"\
+	"C:\Program Files\MATLAB\R2013b\extern\lib\win64\microsoft\libut.lib"\
+	"C:\Program Files\MATLAB\R2013b\extern\lib\win64\microsoft\libmwmathutil.lib"\
+	"C:\Program Files\MATLAB\R2013b\extern\lib\win64\microsoft\libemlrt.lib"\
+	"C:\Program Files\MATLAB\R2013b\lib\win64\libippmwipt.lib"\
+
+INCLUDE_PATH= -I"C:\Program Files\MATLAB\R2013b\sys\lcc64\lcc64\include64"  -I"C:\Program Files\MATLAB\R2013b\extern\include"  -I"C:\Program Files\MATLAB\R2013b\simulink\include"  -I"C:\Program Files\MATLAB\R2013b\rtw\c\src"  -I"C:\Program Files\MATLAB\R2013b\stateflow\c\mex\include"  -I"C:\Program Files\MATLAB\R2013b\stateflow\c\debugger\include"  -I"C:\Program Files\MATLAB\R2013b\toolbox\stateflow\src\sf_runtime\export\include\sf_runtime" 
+ 
+
+hyd_hyb_2_int_cont_Final_sfun.mexw64 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o hyd_hyb_2_int_cont_Final_sfun.mexw64 @hyd_hyb_2_int_cont_Final_sfun.lmko
+hyd_hyb_2_int_cont_Final_sfun.obj :	"hyd_hyb_2_int_cont_Final_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "hyd_hyb_2_int_cont_Final_sfun.c"
+c1_hyd_hyb_2_int_cont_Final.obj :	"c1_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_hyd_hyb_2_int_cont_Final.c"
+c2_hyd_hyb_2_int_cont_Final.obj :	"c2_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_hyd_hyb_2_int_cont_Final.c"
+c3_hyd_hyb_2_int_cont_Final.obj :	"c3_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c3_hyd_hyb_2_int_cont_Final.c"
+c4_hyd_hyb_2_int_cont_Final.obj :	"c4_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c4_hyd_hyb_2_int_cont_Final.c"
+c5_hyd_hyb_2_int_cont_Final.obj :	"c5_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c5_hyd_hyb_2_int_cont_Final.c"
+c6_hyd_hyb_2_int_cont_Final.obj :	"c6_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c6_hyd_hyb_2_int_cont_Final.c"
+c7_hyd_hyb_2_int_cont_Final.obj :	"c7_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c7_hyd_hyb_2_int_cont_Final.c"
+c8_hyd_hyb_2_int_cont_Final.obj :	"c8_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c8_hyd_hyb_2_int_cont_Final.c"
+c10_hyd_hyb_2_int_cont_Final.obj :	"c10_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c10_hyd_hyb_2_int_cont_Final.c"
+c36_hyd_hyb_2_int_cont_Final.obj :	"c36_hyd_hyb_2_int_cont_Final.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c36_hyd_hyb_2_int_cont_Final.c"
+hyd_hyb_2_int_cont_Final_sfun_registry.obj :	"hyd_hyb_2_int_cont_Final_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "hyd_hyb_2_int_cont_Final_sfun_registry.c"
+lccstub.obj :	"C:\Program Files\MATLAB\R2013b\sys\lcc64\lcc64\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "C:\Program Files\MATLAB\R2013b\sys\lcc64\lcc64\mex\lccstub.c"

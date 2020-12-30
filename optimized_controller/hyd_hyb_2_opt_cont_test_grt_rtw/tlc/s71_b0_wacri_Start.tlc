@@ -1,0 +1,510 @@
+%implements s71_b0_wacri_Start "C"
+
+%function Start(block, system) Output
+%assign tlcStartFcnOfS50B0 = OpaqueTLCBlockFcn("Start", 50, 0)
+%assign tlcStartFcnOfS50B1 = OpaqueTLCBlockFcn("Start", 50, 1)
+%assign tlcStartFcnOfS51B0 = OpaqueTLCBlockFcn("Start", 51, 0)
+%assign tlcStartFcnOfS51B1 = OpaqueTLCBlockFcn("Start", 51, 1)
+%assign tlcStartFcnOfS52B0 = OpaqueTLCBlockFcn("Start", 52, 0)
+%assign tlcStartFcnOfS52B1 = OpaqueTLCBlockFcn("Start", 52, 1)
+%assign tlcStartFcnOfS53B27 = OpaqueTLCBlockFcn("Start", 53, 27)
+%assign tlcStartFcnOfS26B134 = OpaqueTLCBlockFcn("Start", 26, 134)
+%assign tlcStartFcnOfS28B285 = OpaqueTLCBlockFcn("Start", 28, 285)
+%assign tlcStartFcnOfS29B305 = OpaqueTLCBlockFcn("Start", 29, 305)
+%assign tlcStartFcnOfS29B308 = OpaqueTLCBlockFcn("Start", 29, 308)
+%assign tlcStartFcnOfS29B309 = OpaqueTLCBlockFcn("Start", 29, 309)
+%assign tlcStartFcnOfS30B375 = OpaqueTLCBlockFcn("Start", 30, 375)
+%assign tlcStartFcnOfS31B348 = OpaqueTLCBlockFcn("Start", 31, 348)
+%assign tlcStartFcnOfS32B2 = OpaqueTLCBlockFcn("Start", 32, 2)
+%assign tlcStartFcnOfS33B2 = OpaqueTLCBlockFcn("Start", 33, 2)
+%assign tlcStartFcnOfS34B2 = OpaqueTLCBlockFcn("Start", 34, 2)
+%assign tlcStartFcnOfS53B50 = OpaqueTLCBlockFcn("Start", 53, 50)
+%assign tlcStartFcnOfS53B52 = OpaqueTLCBlockFcn("Start", 53, 52)
+%assign tlcStartFcnOfS53B53 = OpaqueTLCBlockFcn("Start", 53, 53)
+%assign tlcStartFcnOfS53B91 = OpaqueTLCBlockFcn("Start", 53, 91)
+%assign tlcStartFcnOfS53B92 = OpaqueTLCBlockFcn("Start", 53, 92)
+%assign tlcStartFcnOfS53B94 = OpaqueTLCBlockFcn("Start", 53, 94)
+%assign tlcStartFcnOfS53B95 = OpaqueTLCBlockFcn("Start", 53, 95)
+%assign tlcStartFcnOfS53B96 = OpaqueTLCBlockFcn("Start", 53, 96)
+%assign tlcStartFcnOfS53B97 = OpaqueTLCBlockFcn("Start", 53, 97)
+%assign tlcStartFcnOfS53B98 = OpaqueTLCBlockFcn("Start", 53, 98)
+%assign tlcStartFcnOfS53B100 = OpaqueTLCBlockFcn("Start", 53, 100)
+%assign tlcStartFcnOfS53B101 = OpaqueTLCBlockFcn("Start", 53, 101)
+%assign tlcStartFcnOfS53B102 = OpaqueTLCBlockFcn("Start", 53, 102)
+%assign tlcStartFcnOfS53B103 = OpaqueTLCBlockFcn("Start", 53, 103)
+%assign tlcStartFcnOfS53B108 = OpaqueTLCBlockFcn("Start", 53, 108)
+%assign tlcStartFcnOfS53B109 = OpaqueTLCBlockFcn("Start", 53, 109)
+%assign tlcStartFcnOfS53B138 = OpaqueTLCBlockFcn("Start", 53, 138)
+%assign tlcStartFcnOfS53B139 = OpaqueTLCBlockFcn("Start", 53, 139)
+%assign tlcStartFcnOfS53B140 = OpaqueTLCBlockFcn("Start", 53, 140)
+%assign tlcStartFcnOfS53B142 = OpaqueTLCBlockFcn("Start", 53, 142)
+%assign tlcStartFcnOfS53B143 = OpaqueTLCBlockFcn("Start", 53, 143)
+%assign tlcStartFcnOfS53B144 = OpaqueTLCBlockFcn("Start", 53, 144)
+%assign tlcStartFcnOfS53B145 = OpaqueTLCBlockFcn("Start", 53, 145)
+%assign tlcStartFcnOfS53B146 = OpaqueTLCBlockFcn("Start", 53, 146)
+%assign tlcStartFcnOfS53B147 = OpaqueTLCBlockFcn("Start", 53, 147)
+%assign tlcStartFcnOfS53B149 = OpaqueTLCBlockFcn("Start", 53, 149)
+%assign tlcStartFcnOfS53B150 = OpaqueTLCBlockFcn("Start", 53, 150)
+%assign tlcStartFcnOfS53B155 = OpaqueTLCBlockFcn("Start", 53, 155)
+%assign tlcStartFcnOfS53B156 = OpaqueTLCBlockFcn("Start", 53, 156)
+%assign tlcStartFcnOfS53B157 = OpaqueTLCBlockFcn("Start", 53, 157)
+%assign tlcStartFcnOfS53B160 = OpaqueTLCBlockFcn("Start", 53, 160)
+%assign tlcStartFcnOfS53B162 = OpaqueTLCBlockFcn("Start", 53, 162)
+%assign tlcStartFcnOfS53B163 = OpaqueTLCBlockFcn("Start", 53, 163)
+%assign tlcStartFcnOfS53B164 = OpaqueTLCBlockFcn("Start", 53, 164)
+%assign tlcStartFcnOfS53B165 = OpaqueTLCBlockFcn("Start", 53, 165)
+%assign tlcStartFcnOfS53B166 = OpaqueTLCBlockFcn("Start", 53, 166)
+%assign tlcStartFcnOfS53B167 = OpaqueTLCBlockFcn("Start", 53, 167)
+%assign tlcStartFcnOfS53B174 = OpaqueTLCBlockFcn("Start", 53, 174)
+%assign tlcStartFcnOfS53B175 = OpaqueTLCBlockFcn("Start", 53, 175)
+%assign tlcStartFcnOfS53B176 = OpaqueTLCBlockFcn("Start", 53, 176)
+%assign tlcStartFcnOfS53B177 = OpaqueTLCBlockFcn("Start", 53, 177)
+%assign tlcStartFcnOfS53B178 = OpaqueTLCBlockFcn("Start", 53, 178)
+%assign tlcStartFcnOfS53B179 = OpaqueTLCBlockFcn("Start", 53, 179)
+%assign tlcStartFcnOfS53B185 = OpaqueTLCBlockFcn("Start", 53, 185)
+%assign tlcStartFcnOfS53B186 = OpaqueTLCBlockFcn("Start", 53, 186)
+%assign tlcStartFcnOfS53B187 = OpaqueTLCBlockFcn("Start", 53, 187)
+%assign tlcStartFcnOfS53B188 = OpaqueTLCBlockFcn("Start", 53, 188)
+%assign tlcStartFcnOfS53B189 = OpaqueTLCBlockFcn("Start", 53, 189)
+%assign tlcStartFcnOfS53B190 = OpaqueTLCBlockFcn("Start", 53, 190)
+%assign tlcStartFcnOfS53B191 = OpaqueTLCBlockFcn("Start", 53, 191)
+%assign tlcStartFcnOfS53B192 = OpaqueTLCBlockFcn("Start", 53, 192)
+%assign tlcStartFcnOfS53B193 = OpaqueTLCBlockFcn("Start", 53, 193)
+%assign tlcStartFcnOfS53B194 = OpaqueTLCBlockFcn("Start", 53, 194)
+%assign tlcStartFcnOfS53B195 = OpaqueTLCBlockFcn("Start", 53, 195)
+%assign tlcStartFcnOfS53B196 = OpaqueTLCBlockFcn("Start", 53, 196)
+%assign tlcStartFcnOfS53B197 = OpaqueTLCBlockFcn("Start", 53, 197)
+%assign tlcStartFcnOfS53B198 = OpaqueTLCBlockFcn("Start", 53, 198)
+%assign tlcStartFcnOfS53B199 = OpaqueTLCBlockFcn("Start", 53, 199)
+%assign tlcStartFcnOfS53B200 = OpaqueTLCBlockFcn("Start", 53, 200)
+%assign tlcStartFcnOfS53B204 = OpaqueTLCBlockFcn("Start", 53, 204)
+%assign tlcStartFcnOfS53B205 = OpaqueTLCBlockFcn("Start", 53, 205)
+%assign tlcStartFcnOfS53B206 = OpaqueTLCBlockFcn("Start", 53, 206)
+%assign tlcStartFcnOfS53B207 = OpaqueTLCBlockFcn("Start", 53, 207)
+%assign tlcStartFcnOfS53B208 = OpaqueTLCBlockFcn("Start", 53, 208)
+%assign tlcStartFcnOfS53B209 = OpaqueTLCBlockFcn("Start", 53, 209)
+%assign tlcStartFcnOfS53B210 = OpaqueTLCBlockFcn("Start", 53, 210)
+%assign tlcStartFcnOfS53B211 = OpaqueTLCBlockFcn("Start", 53, 211)
+%assign tlcStartFcnOfS53B212 = OpaqueTLCBlockFcn("Start", 53, 212)
+%assign tlcStartFcnOfS53B213 = OpaqueTLCBlockFcn("Start", 53, 213)
+%assign tlcStartFcnOfS53B214 = OpaqueTLCBlockFcn("Start", 53, 214)
+%assign tlcStartFcnOfS53B215 = OpaqueTLCBlockFcn("Start", 53, 215)
+%assign tlcStartFcnOfS53B216 = OpaqueTLCBlockFcn("Start", 53, 216)
+%assign tlcStartFcnOfS53B217 = OpaqueTLCBlockFcn("Start", 53, 217)
+%assign tlcStartFcnOfS53B218 = OpaqueTLCBlockFcn("Start", 53, 218)
+%assign tlcStartFcnOfS53B219 = OpaqueTLCBlockFcn("Start", 53, 219)
+%assign tlcStartFcnOfS53B220 = OpaqueTLCBlockFcn("Start", 53, 220)
+%assign tlcStartFcnOfS53B221 = OpaqueTLCBlockFcn("Start", 53, 221)
+%assign tlcStartFcnOfS53B222 = OpaqueTLCBlockFcn("Start", 53, 222)
+%assign tlcStartFcnOfS53B224 = OpaqueTLCBlockFcn("Start", 53, 224)
+%assign tlcStartFcnOfS53B226 = OpaqueTLCBlockFcn("Start", 53, 226)
+%assign tlcStartFcnOfS53B251 = OpaqueTLCBlockFcn("Start", 53, 251)
+%assign tlcStartFcnOfS53B340 = OpaqueTLCBlockFcn("Start", 53, 340)
+%assign tlcStartFcnOfS53B407 = OpaqueTLCBlockFcn("Start", 53, 407)
+%assign tlcStartFcnOfS53B430 = OpaqueTLCBlockFcn("Start", 53, 430)
+%assign tlcStartFcnOfS53B519 = OpaqueTLCBlockFcn("Start", 53, 519)
+%assign tlcStartFcnOfS53B521 = OpaqueTLCBlockFcn("Start", 53, 521)
+%assign tlcStartFcnOfS53B522 = OpaqueTLCBlockFcn("Start", 53, 522)
+%assign tlcStartFcnOfS53B580 = OpaqueTLCBlockFcn("Start", 53, 580)
+%assign tlcStartFcnOfS53B588 = OpaqueTLCBlockFcn("Start", 53, 588)
+%assign tlcStartFcnOfS53B590 = OpaqueTLCBlockFcn("Start", 53, 590)
+%assign tlcStartFcnOfS53B591 = OpaqueTLCBlockFcn("Start", 53, 591)
+%assign tlcStartFcnOfS53B640 = OpaqueTLCBlockFcn("Start", 53, 640)
+%assign tlcStartFcnOfS53B641 = OpaqueTLCBlockFcn("Start", 53, 641)
+%assign tlcStartFcnOfS53B642 = OpaqueTLCBlockFcn("Start", 53, 642)
+%assign tlcStartFcnOfS53B643 = OpaqueTLCBlockFcn("Start", 53, 643)
+%assign tlcStartFcnOfS53B644 = OpaqueTLCBlockFcn("Start", 53, 644)
+%assign tlcStartFcnOfS53B645 = OpaqueTLCBlockFcn("Start", 53, 645)
+%assign tlcStartFcnOfS53B646 = OpaqueTLCBlockFcn("Start", 53, 646)
+%assign tlcStartFcnOfS53B647 = OpaqueTLCBlockFcn("Start", 53, 647)
+%assign tlcStartFcnOfS53B648 = OpaqueTLCBlockFcn("Start", 53, 648)
+%assign tlcStartFcnOfS53B649 = OpaqueTLCBlockFcn("Start", 53, 649)
+%assign tlcStartFcnOfS53B650 = OpaqueTLCBlockFcn("Start", 53, 650)
+%assign tlcStartFcnOfS53B651 = OpaqueTLCBlockFcn("Start", 53, 651)
+/* Start for If: '<S2164>/If' */
+
+%<SLibCG_SetDWV(176, 0, 53, 1, "", -1, "", 0, "-1")>\
+/* Start for IfAction SubSystem: '<S2164>/for 5 gal accumulator' */
+
+%<tlcStartFcnOfS50B0>\
+%<tlcStartFcnOfS50B1>\
+/* VirtualOutportStart for Outport: '<S2167>/accum_dry_mass ( kg )' */
+
+%<SLibCG_SetBOV(214, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1712, 0, 53, 1, "", -1, "", 0))>")>\
+/* End of Start for SubSystem: '<S2164>/for 5 gal accumulator' */
+
+/* Start for If: '<S2164>/If1' */
+
+%<SLibCG_SetDWV(177, 0, 53, 1, "", -1, "", 0, "-1")>\
+/* Start for IfAction SubSystem: '<S2164>/for 10 gal accumulator' */
+
+%<tlcStartFcnOfS51B0>\
+
+%<tlcStartFcnOfS51B1>\
+/* VirtualOutportStart for Outport: '<S2165>/accum_dry_mass ( kg )' */
+
+%<SLibCG_SetBOV(209, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1722, 0, 53, 1, "", -1, "", 0))>")>\
+/* End of Start for SubSystem: '<S2164>/for 10 gal accumulator' */
+
+/* Start for If: '<S2164>/If2' */
+
+%<SLibCG_SetDWV(178, 0, 53, 1, "", -1, "", 0, "-1")>\
+/* Start for IfAction SubSystem: '<S2164>/for 15 gal accumulator1' */
+
+%<tlcStartFcnOfS52B0>\
+
+%<tlcStartFcnOfS52B1>\
+/* VirtualOutportStart for Outport: '<S2166>/accum_dry_mass ( kg )' */
+
+%<SLibCG_SetBOV(204, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1732, 0, 53, 1, "", -1, "", 0))>")>\
+/* End of Start for SubSystem: '<S2164>/for 15 gal accumulator1' */
+
+%<tlcStartFcnOfS53B27>\
+/* Start for If: '<S141>/If' */
+
+%<SLibCG_SetDWV(179, 0, 53, 1, "", -1, "", 0, "-1")>\
+%assign   Start_open_SOCunder05_53_47 = ""
+%openfile Start_open_SOCunder05_53_47
+
+/* Start for IfAction SubSystem: '<S141>/SOC under 0.5' */
+%closefile Start_open_SOCunder05_53_47
+
+%assign    Start_body_SOCunder05_53_47 = ""
+%openfile  Start_body_SOCunder05_53_47
+
+
+%<tlcStartFcnOfS26B134>\
+%closefile Start_body_SOCunder05_53_47
+
+%assign    Start_close_SOCunder05_53_47 = ""
+%openfile  Start_close_SOCunder05_53_47
+
+/* End of Start for SubSystem: '<S141>/SOC under 0.5' */
+%closefile Start_close_SOCunder05_53_47
+%<SLibCG_DumpSSCode(Start_open_SOCunder05_53_47, Start_body_SOCunder05_53_47, Start_close_SOCunder05_53_47)>
+
+
+/* Start for IfAction SubSystem: '<S141>/SOC upper 0.5' */
+/* Start for If: '<S146>/If' */
+
+%<SLibCG_SetDWV(180, 0, 53, 1, "", -1, "", 0, "-1")>\
+%assign   Start_open_SOCunder06_34_1 = ""
+%openfile Start_open_SOCunder06_34_1
+
+/* Start for IfAction SubSystem: '<S146>/SOC under 0.6' */
+%closefile Start_open_SOCunder06_34_1
+
+%assign    Start_body_SOCunder06_34_1 = ""
+%openfile  Start_body_SOCunder06_34_1
+
+
+%<tlcStartFcnOfS28B285>\
+%closefile Start_body_SOCunder06_34_1
+
+%assign    Start_close_SOCunder06_34_1 = ""
+%openfile  Start_close_SOCunder06_34_1
+
+/* End of Start for SubSystem: '<S146>/SOC under 0.6' */
+%closefile Start_close_SOCunder06_34_1
+%<SLibCG_DumpSSCode(Start_open_SOCunder06_34_1, Start_body_SOCunder06_34_1, Start_close_SOCunder06_34_1)>
+
+
+/* Start for IfAction SubSystem: '<S146>/SOC upper 0.6' */
+/* Start for If: '<S503>/If' */
+
+%<SLibCG_SetDWV(181, 0, 53, 1, "", -1, "", 0, "-1")>\
+%assign   Start_open_SOCunder07_33_1 = ""
+%openfile Start_open_SOCunder07_33_1
+
+/* Start for IfAction SubSystem: '<S503>/SOC under 0.7' */
+%closefile Start_open_SOCunder07_33_1
+
+%assign    Start_body_SOCunder07_33_1 = ""
+%openfile  Start_body_SOCunder07_33_1
+
+
+%<tlcStartFcnOfS29B305>\
+
+%<tlcStartFcnOfS29B308>\
+%<tlcStartFcnOfS29B309>\
+%closefile Start_body_SOCunder07_33_1
+
+%assign    Start_close_SOCunder07_33_1 = ""
+%openfile  Start_close_SOCunder07_33_1
+
+/* End of Start for SubSystem: '<S503>/SOC under 0.7' */
+%closefile Start_close_SOCunder07_33_1
+%<SLibCG_DumpSSCode(Start_open_SOCunder07_33_1, Start_body_SOCunder07_33_1, Start_close_SOCunder07_33_1)>
+
+
+/* Start for IfAction SubSystem: '<S503>/SOC upper 0.7' */
+/* Start for If: '<S842>/If' */
+
+%<SLibCG_SetDWV(182, 0, 53, 1, "", -1, "", 0, "-1")>\
+%assign   Start_open_SOCunder08_32_1 = ""
+%openfile Start_open_SOCunder08_32_1
+
+/* Start for IfAction SubSystem: '<S842>/SOC under 0.8' */
+%closefile Start_open_SOCunder08_32_1
+
+%assign    Start_body_SOCunder08_32_1 = ""
+%openfile  Start_body_SOCunder08_32_1
+
+
+%<tlcStartFcnOfS30B375>\
+%closefile Start_body_SOCunder08_32_1
+
+%assign    Start_close_SOCunder08_32_1 = ""
+%openfile  Start_close_SOCunder08_32_1
+
+/* End of Start for SubSystem: '<S842>/SOC under 0.8' */
+%closefile Start_close_SOCunder08_32_1
+%<SLibCG_DumpSSCode(Start_open_SOCunder08_32_1, Start_body_SOCunder08_32_1, Start_close_SOCunder08_32_1)>
+
+
+%assign   Start_open_SOCupper08_32_2 = ""
+%openfile Start_open_SOCupper08_32_2
+
+/* Start for IfAction SubSystem: '<S842>/SOC upper 0.8' */
+%closefile Start_open_SOCupper08_32_2
+
+%assign    Start_body_SOCupper08_32_2 = ""
+%openfile  Start_body_SOCupper08_32_2
+
+
+%<tlcStartFcnOfS31B348>\
+%closefile Start_body_SOCupper08_32_2
+
+%assign    Start_close_SOCupper08_32_2 = ""
+%openfile  Start_close_SOCupper08_32_2
+
+/* End of Start for SubSystem: '<S842>/SOC upper 0.8' */
+%closefile Start_close_SOCupper08_32_2
+%<SLibCG_DumpSSCode(Start_open_SOCupper08_32_2, Start_body_SOCupper08_32_2, Start_close_SOCupper08_32_2)>
+
+
+%<tlcStartFcnOfS32B2>\
+/* End of Start for SubSystem: '<S503>/SOC upper 0.7' */
+
+%<tlcStartFcnOfS33B2>\
+/* End of Start for SubSystem: '<S146>/SOC upper 0.6' */
+
+%<tlcStartFcnOfS34B2>\
+/* End of Start for SubSystem: '<S141>/SOC upper 0.5' */
+
+%<tlcStartFcnOfS53B50>\
+
+%<tlcStartFcnOfS53B52>\
+
+%<tlcStartFcnOfS53B53>\
+
+%<tlcStartFcnOfS53B91>\
+%<tlcStartFcnOfS53B92>\
+
+%<tlcStartFcnOfS53B94>\
+
+%<tlcStartFcnOfS53B95>\
+%<tlcStartFcnOfS53B96>\
+%<tlcStartFcnOfS53B97>\
+%<tlcStartFcnOfS53B98>\
+
+%<tlcStartFcnOfS53B100>\
+%<tlcStartFcnOfS53B101>\
+%<tlcStartFcnOfS53B102>\
+%<tlcStartFcnOfS53B103>\
+
+%<tlcStartFcnOfS53B108>\
+%<tlcStartFcnOfS53B109>\
+
+%<tlcStartFcnOfS53B138>\
+%<tlcStartFcnOfS53B139>\
+%<tlcStartFcnOfS53B140>\
+
+%<tlcStartFcnOfS53B142>\
+%<tlcStartFcnOfS53B143>\
+%<tlcStartFcnOfS53B144>\
+%<tlcStartFcnOfS53B145>\
+%<tlcStartFcnOfS53B146>\
+%<tlcStartFcnOfS53B147>\
+
+%<tlcStartFcnOfS53B149>\
+%<tlcStartFcnOfS53B150>\
+
+%<tlcStartFcnOfS53B155>\
+%<tlcStartFcnOfS53B156>\
+%<tlcStartFcnOfS53B157>\
+
+%<tlcStartFcnOfS53B160>\
+
+%<tlcStartFcnOfS53B162>\
+%<tlcStartFcnOfS53B163>\
+
+%<tlcStartFcnOfS53B164>\
+
+%<tlcStartFcnOfS53B165>\
+
+%<tlcStartFcnOfS53B166>\
+%<tlcStartFcnOfS53B167>\
+
+%<tlcStartFcnOfS53B174>\
+%<tlcStartFcnOfS53B175>\
+%<tlcStartFcnOfS53B176>\
+%<tlcStartFcnOfS53B177>\
+%<tlcStartFcnOfS53B178>\
+%<tlcStartFcnOfS53B179>\
+
+%<tlcStartFcnOfS53B185>\
+
+%<tlcStartFcnOfS53B186>\
+%<tlcStartFcnOfS53B187>\
+%<tlcStartFcnOfS53B188>\
+%<tlcStartFcnOfS53B189>\
+%<tlcStartFcnOfS53B190>\
+%<tlcStartFcnOfS53B191>\
+%<tlcStartFcnOfS53B192>\
+%<tlcStartFcnOfS53B193>\
+%<tlcStartFcnOfS53B194>\
+%<tlcStartFcnOfS53B195>\
+%<tlcStartFcnOfS53B196>\
+%<tlcStartFcnOfS53B197>\
+%<tlcStartFcnOfS53B198>\
+%<tlcStartFcnOfS53B199>\
+%<tlcStartFcnOfS53B200>\
+
+%<tlcStartFcnOfS53B204>\
+%<tlcStartFcnOfS53B205>\
+%<tlcStartFcnOfS53B206>\
+%<tlcStartFcnOfS53B207>\
+%<tlcStartFcnOfS53B208>\
+%<tlcStartFcnOfS53B209>\
+%<tlcStartFcnOfS53B210>\
+%<tlcStartFcnOfS53B211>\
+%<tlcStartFcnOfS53B212>\
+%<tlcStartFcnOfS53B213>\
+%<tlcStartFcnOfS53B214>\
+%<tlcStartFcnOfS53B215>\
+%<tlcStartFcnOfS53B216>\
+%<tlcStartFcnOfS53B217>\
+%<tlcStartFcnOfS53B218>\
+%<tlcStartFcnOfS53B219>\
+%<tlcStartFcnOfS53B220>\
+%<tlcStartFcnOfS53B221>\
+%<tlcStartFcnOfS53B222>\
+%<tlcStartFcnOfS53B224>\
+
+%<tlcStartFcnOfS53B226>\
+
+%<tlcStartFcnOfS53B251>\
+
+%<tlcStartFcnOfS53B340>\
+%assign   Start_open_EnabledSubsystem1_53_572 = ""
+%openfile Start_open_EnabledSubsystem1_53_572
+
+/* Start for Enabled SubSystem: '<S103>/Enabled Subsystem1' */
+%closefile Start_open_EnabledSubsystem1_53_572
+
+%assign    Start_body_EnabledSubsystem1_53_572 = ""
+%openfile  Start_body_EnabledSubsystem1_53_572
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 0, 0, 0, 0, 53)>\
+%closefile Start_body_EnabledSubsystem1_53_572
+
+%assign    Start_close_EnabledSubsystem1_53_572 = ""
+%openfile  Start_close_EnabledSubsystem1_53_572
+
+/* End of Start for SubSystem: '<S103>/Enabled Subsystem1' */
+%closefile Start_close_EnabledSubsystem1_53_572
+%<SLibCG_DumpSSCode(Start_open_EnabledSubsystem1_53_572, Start_body_EnabledSubsystem1_53_572, Start_close_EnabledSubsystem1_53_572)>
+
+
+%assign   Start_open_EnabledSubsystem2_53_574 = ""
+%openfile Start_open_EnabledSubsystem2_53_574
+
+/* Start for Enabled SubSystem: '<S103>/Enabled Subsystem2' */
+%closefile Start_open_EnabledSubsystem2_53_574
+
+%assign    Start_body_EnabledSubsystem2_53_574 = ""
+%openfile  Start_body_EnabledSubsystem2_53_574
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 1, 0, 0, 0, 53)>\
+%closefile Start_body_EnabledSubsystem2_53_574
+
+%assign    Start_close_EnabledSubsystem2_53_574 = ""
+%openfile  Start_close_EnabledSubsystem2_53_574
+
+/* End of Start for SubSystem: '<S103>/Enabled Subsystem2' */
+%closefile Start_close_EnabledSubsystem2_53_574
+%<SLibCG_DumpSSCode(Start_open_EnabledSubsystem2_53_574, Start_body_EnabledSubsystem2_53_574, Start_close_EnabledSubsystem2_53_574)>
+
+
+%assign   Start_open_EnabledSubsystem3_53_576 = ""
+%openfile Start_open_EnabledSubsystem3_53_576
+
+/* Start for Enabled SubSystem: '<S103>/Enabled Subsystem3' */
+%closefile Start_open_EnabledSubsystem3_53_576
+
+%assign    Start_body_EnabledSubsystem3_53_576 = ""
+%openfile  Start_body_EnabledSubsystem3_53_576
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 2, 0, 0, 0, 53)>\
+%closefile Start_body_EnabledSubsystem3_53_576
+
+%assign    Start_close_EnabledSubsystem3_53_576 = ""
+%openfile  Start_close_EnabledSubsystem3_53_576
+
+/* End of Start for SubSystem: '<S103>/Enabled Subsystem3' */
+%closefile Start_close_EnabledSubsystem3_53_576
+%<SLibCG_DumpSSCode(Start_open_EnabledSubsystem3_53_576, Start_body_EnabledSubsystem3_53_576, Start_close_EnabledSubsystem3_53_576)>
+
+
+%assign   Start_open_EnabledSubsystem4_53_578 = ""
+%openfile Start_open_EnabledSubsystem4_53_578
+
+/* Start for Enabled SubSystem: '<S103>/Enabled Subsystem4' */
+%closefile Start_open_EnabledSubsystem4_53_578
+
+%assign    Start_body_EnabledSubsystem4_53_578 = ""
+%openfile  Start_body_EnabledSubsystem4_53_578
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 3, 0, 0, 0, 53)>\
+%closefile Start_body_EnabledSubsystem4_53_578
+
+%assign    Start_close_EnabledSubsystem4_53_578 = ""
+%openfile  Start_close_EnabledSubsystem4_53_578
+
+/* End of Start for SubSystem: '<S103>/Enabled Subsystem4' */
+%closefile Start_close_EnabledSubsystem4_53_578
+%<SLibCG_DumpSSCode(Start_open_EnabledSubsystem4_53_578, Start_body_EnabledSubsystem4_53_578, Start_close_EnabledSubsystem4_53_578)>
+
+%<tlcStartFcnOfS53B407>\
+
+%<tlcStartFcnOfS53B430>\
+%<tlcStartFcnOfS53B519>\
+%<tlcStartFcnOfS53B521>\
+%<tlcStartFcnOfS53B522>\
+
+%<tlcStartFcnOfS53B580>\
+
+%<tlcStartFcnOfS53B588>\
+
+%<tlcStartFcnOfS53B590>\
+%<tlcStartFcnOfS53B591>\
+
+%<tlcStartFcnOfS53B640>\
+%<tlcStartFcnOfS53B641>\
+
+%<tlcStartFcnOfS53B642>\
+%<tlcStartFcnOfS53B643>\
+%<tlcStartFcnOfS53B644>\
+%<tlcStartFcnOfS53B645>\
+%<tlcStartFcnOfS53B646>\
+%<tlcStartFcnOfS53B647>\
+%<tlcStartFcnOfS53B648>\
+%<tlcStartFcnOfS53B649>\
+%<tlcStartFcnOfS53B650>\
+%<tlcStartFcnOfS53B651>\
+%endfunction

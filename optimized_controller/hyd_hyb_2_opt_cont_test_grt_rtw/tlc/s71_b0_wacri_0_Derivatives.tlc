@@ -1,0 +1,10 @@
+%implements s71_b0_wacri_0_Derivatives "C"
+
+%function Derivatives(block, system) Output
+%assign tlcDerivativesFcnOfS9B0 = OpaqueTLCBlockFcn("Derivatives", 9, 0)
+if (%<(SLibCG_DWV(193, 0, 9, 1, "", -1, "", 0))>) {
+%<tlcDerivativesFcnOfS9B0>\
+} else {
+%<SLibCGIRZeroOutDerivativesForSystem(9, 53, 352)>\
+}
+%endfunction

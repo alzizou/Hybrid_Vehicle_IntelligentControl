@@ -1,0 +1,111 @@
+%implements s71_b0_wacri_Disable "C"
+
+%function Disable(block, system) Output
+/* Disable for If: '<S2164>/If' */
+
+%<SLibCG_SetDWV(176, 0, 53, 1, "", -1, "", 0, "-1")>\
+/* Disable for If: '<S2164>/If1' */
+
+%<SLibCG_SetDWV(177, 0, 53, 1, "", -1, "", 0, "-1")>\
+/* Disable for If: '<S2164>/If2' */
+
+%<SLibCG_SetDWV(178, 0, 53, 1, "", -1, "", 0, "-1")>\
+/* Disable for If: '<S141>/If' */
+
+%<SLibCG_SetDWV(179, 0, 53, 1, "", -1, "", 0, "-1")>\
+/* Disable for Stateflow: '<S6>/Chart' */
+
+%<SLibCG_SetDWV(169, 0, 53, 1, "", -1, "", 0, "%<LibGetClockTick(1)>")>\
+%<SLibCG_SetDWV(170, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_SE(SLibCG_DWV(169, 0, 53, 1, "", -1, "", 0)))> - %<(SLibCG_SE(SLibCG_DWV(171, 0, 53, 1, "", -1, "", 0)))>")>\
+%<SLibCG_SetDWV(171, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_DWV(169, 0, 53, 1, "", -1, "", 0))>")>\
+if ((uint32_T)%<(SLibCG_SE(SLibCG_DWV(187, 0, 53, 1, "", -1, "", 0)))> + %<(SLibCG_SE(SLibCG_DWV(170, 0, 53, 1, "", -1, "", 0)))> <= 127U) {
+%<SLibCG_SetDWV(187, 0, 53, 1, "", -1, "", 0, "(uint8_T)((uint32_T)%<(SLibCG_SE(SLibCG_DWV(187, 0, 53, 1, "", -1, "", 0)))> + %<(SLibCG_SE(SLibCG_DWV(170, 0, 53, 1, "", -1, "", 0)))>)")>\
+} else {
+%<SLibCG_SetDWV(187, 0, 53, 1, "", -1, "", 0, "127U")>\
+}
+/* End of Stateflow: '<S6>/Chart' */
+
+%assign   Disable_open_EnabledSubsystem1_53_572 = ""
+%openfile Disable_open_EnabledSubsystem1_53_572
+
+/* Disable for Enabled SubSystem: '<S103>/Enabled Subsystem1' */
+%closefile Disable_open_EnabledSubsystem1_53_572
+
+%assign    Disable_body_EnabledSubsystem1_53_572 = ""
+%openfile  Disable_body_EnabledSubsystem1_53_572
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 0, 11, 0, 11, 53)>\
+%closefile Disable_body_EnabledSubsystem1_53_572
+
+%assign    Disable_close_EnabledSubsystem1_53_572 = ""
+%openfile  Disable_close_EnabledSubsystem1_53_572
+
+/* End of Disable for SubSystem: '<S103>/Enabled Subsystem1' */
+%closefile Disable_close_EnabledSubsystem1_53_572
+%<SLibCG_DumpSSCode(Disable_open_EnabledSubsystem1_53_572, Disable_body_EnabledSubsystem1_53_572, Disable_close_EnabledSubsystem1_53_572)>
+
+
+%assign   Disable_open_EnabledSubsystem2_53_574 = ""
+%openfile Disable_open_EnabledSubsystem2_53_574
+
+/* Disable for Enabled SubSystem: '<S103>/Enabled Subsystem2' */
+%closefile Disable_open_EnabledSubsystem2_53_574
+
+%assign    Disable_body_EnabledSubsystem2_53_574 = ""
+%openfile  Disable_body_EnabledSubsystem2_53_574
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 1, 11, 0, 11, 53)>\
+%closefile Disable_body_EnabledSubsystem2_53_574
+
+%assign    Disable_close_EnabledSubsystem2_53_574 = ""
+%openfile  Disable_close_EnabledSubsystem2_53_574
+
+/* End of Disable for SubSystem: '<S103>/Enabled Subsystem2' */
+%closefile Disable_close_EnabledSubsystem2_53_574
+%<SLibCG_DumpSSCode(Disable_open_EnabledSubsystem2_53_574, Disable_body_EnabledSubsystem2_53_574, Disable_close_EnabledSubsystem2_53_574)>
+
+
+%assign   Disable_open_EnabledSubsystem3_53_576 = ""
+%openfile Disable_open_EnabledSubsystem3_53_576
+
+/* Disable for Enabled SubSystem: '<S103>/Enabled Subsystem3' */
+%closefile Disable_open_EnabledSubsystem3_53_576
+
+%assign    Disable_body_EnabledSubsystem3_53_576 = ""
+%openfile  Disable_body_EnabledSubsystem3_53_576
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 2, 11, 0, 11, 53)>\
+%closefile Disable_body_EnabledSubsystem3_53_576
+
+%assign    Disable_close_EnabledSubsystem3_53_576 = ""
+%openfile  Disable_close_EnabledSubsystem3_53_576
+
+/* End of Disable for SubSystem: '<S103>/Enabled Subsystem3' */
+%closefile Disable_close_EnabledSubsystem3_53_576
+%<SLibCG_DumpSSCode(Disable_open_EnabledSubsystem3_53_576, Disable_body_EnabledSubsystem3_53_576, Disable_close_EnabledSubsystem3_53_576)>
+
+
+%assign   Disable_open_EnabledSubsystem4_53_578 = ""
+%openfile Disable_open_EnabledSubsystem4_53_578
+
+/* Disable for Enabled SubSystem: '<S103>/Enabled Subsystem4' */
+%closefile Disable_open_EnabledSubsystem4_53_578
+
+%assign    Disable_body_EnabledSubsystem4_53_578 = ""
+%openfile  Disable_body_EnabledSubsystem4_53_578
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 3, 11, 0, 11, 53)>\
+%closefile Disable_body_EnabledSubsystem4_53_578
+
+%assign    Disable_close_EnabledSubsystem4_53_578 = ""
+%openfile  Disable_close_EnabledSubsystem4_53_578
+
+/* End of Disable for SubSystem: '<S103>/Enabled Subsystem4' */
+%closefile Disable_close_EnabledSubsystem4_53_578
+%<SLibCG_DumpSSCode(Disable_open_EnabledSubsystem4_53_578, Disable_body_EnabledSubsystem4_53_578, Disable_close_EnabledSubsystem4_53_578)>
+
+%endfunction

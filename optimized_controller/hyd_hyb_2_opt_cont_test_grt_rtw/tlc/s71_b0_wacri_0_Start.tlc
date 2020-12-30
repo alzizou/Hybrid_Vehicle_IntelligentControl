@@ -1,0 +1,8 @@
+%implements s71_b0_wacri_0_Start "C"
+
+%function Start(block, system) Output
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 0, 2, 0, 0, 9)>\
+/* VirtualOutportStart for Outport: '<S112>/clutch release' */
+
+%<SLibCG_SetBOV(351, 0, 9, 1, "", -1, "", 0, "%<(SLibCGIR_PV(2047, 0, 9, 1, "", -1, "", 0))>")>\
+%endfunction

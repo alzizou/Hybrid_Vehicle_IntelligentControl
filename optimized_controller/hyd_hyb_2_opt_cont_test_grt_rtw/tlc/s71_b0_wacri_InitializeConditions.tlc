@@ -1,0 +1,188 @@
+%implements s71_b0_wacri_InitializeConditions "C"
+
+%function InitializeConditions(block, system) Output
+%assign tlcInitializeConditionsFcnOfS53B0 = OpaqueTLCBlockFcn("InitializeConditions", 53, 0)
+%assign tlcInitializeConditionsFcnOfS53B27 = OpaqueTLCBlockFcn("InitializeConditions", 53, 27)
+%assign tlcInitializeConditionsFcnOfS53B34 = OpaqueTLCBlockFcn("InitializeConditions", 53, 34)
+%assign tlcInitializeConditionsFcnOfS53B35 = OpaqueTLCBlockFcn("InitializeConditions", 53, 35)
+%assign tlcInitializeConditionsFcnOfS53B36 = OpaqueTLCBlockFcn("InitializeConditions", 53, 36)
+%assign tlcInitializeConditionsFcnOfS53B37 = OpaqueTLCBlockFcn("InitializeConditions", 53, 37)
+%assign tlcInitializeConditionsFcnOfS53B38 = OpaqueTLCBlockFcn("InitializeConditions", 53, 38)
+%assign tlcInitializeConditionsFcnOfS53B39 = OpaqueTLCBlockFcn("InitializeConditions", 53, 39)
+%assign tlcInitializeConditionsFcnOfS53B40 = OpaqueTLCBlockFcn("InitializeConditions", 53, 40)
+%assign tlcInitializeConditionsFcnOfS53B41 = OpaqueTLCBlockFcn("InitializeConditions", 53, 41)
+%assign tlcInitializeConditionsFcnOfS53B42 = OpaqueTLCBlockFcn("InitializeConditions", 53, 42)
+%assign tlcInitializeConditionsFcnOfS53B43 = OpaqueTLCBlockFcn("InitializeConditions", 53, 43)
+%assign tlcInitializeConditionsFcnOfS53B44 = OpaqueTLCBlockFcn("InitializeConditions", 53, 44)
+%assign tlcInitializeConditionsFcnOfS53B45 = OpaqueTLCBlockFcn("InitializeConditions", 53, 45)
+%assign tlcInitializeConditionsFcnOfS53B46 = OpaqueTLCBlockFcn("InitializeConditions", 53, 46)
+%assign tlcInitializeConditionsFcnOfS53B47 = OpaqueTLCBlockFcn("InitializeConditions", 53, 47)
+%assign tlcInitializeConditionsFcnOfS53B48 = OpaqueTLCBlockFcn("InitializeConditions", 53, 48)
+%assign tlcInitializeConditionsFcnOfS53B49 = OpaqueTLCBlockFcn("InitializeConditions", 53, 49)
+%assign tlcInitializeConditionsFcnOfS53B51 = OpaqueTLCBlockFcn("InitializeConditions", 53, 51)
+%assign tlcInitializeConditionsFcnOfS53B52 = OpaqueTLCBlockFcn("InitializeConditions", 53, 52)
+%assign tlcInitializeConditionsFcnOfS53B57 = OpaqueTLCBlockFcn("InitializeConditions", 53, 57)
+%assign tlcInitializeConditionsFcnOfS53B58 = OpaqueTLCBlockFcn("InitializeConditions", 53, 58)
+%assign tlcInitializeConditionsFcnOfS53B77 = OpaqueTLCBlockFcn("InitializeConditions", 53, 77)
+%assign tlcInitializeConditionsFcnOfS53B78 = OpaqueTLCBlockFcn("InitializeConditions", 53, 78)
+%assign tlcInitializeConditionsFcnOfS53B79 = OpaqueTLCBlockFcn("InitializeConditions", 53, 79)
+%assign tlcInitializeConditionsFcnOfS53B124 = OpaqueTLCBlockFcn("InitializeConditions", 53, 124)
+%assign tlcInitializeConditionsFcnOfS53B168 = OpaqueTLCBlockFcn("InitializeConditions", 53, 168)
+%assign tlcInitializeConditionsFcnOfS53B223 = OpaqueTLCBlockFcn("InitializeConditions", 53, 223)
+%assign tlcInitializeConditionsFcnOfS53B252 = OpaqueTLCBlockFcn("InitializeConditions", 53, 252)
+%assign tlcInitializeConditionsFcnOfS53B267 = OpaqueTLCBlockFcn("InitializeConditions", 53, 267)
+%assign tlcInitializeConditionsFcnOfS53B299 = OpaqueTLCBlockFcn("InitializeConditions", 53, 299)
+%assign tlcInitializeConditionsFcnOfS53B314 = OpaqueTLCBlockFcn("InitializeConditions", 53, 314)
+%assign tlcInitializeConditionsFcnOfS53B426 = OpaqueTLCBlockFcn("InitializeConditions", 53, 426)
+%assign tlcInitializeConditionsFcnOfS53B427 = OpaqueTLCBlockFcn("InitializeConditions", 53, 427)
+%assign tlcInitializeConditionsFcnOfS53B488 = OpaqueTLCBlockFcn("InitializeConditions", 53, 488)
+%assign tlcInitializeConditionsFcnOfS53B523 = OpaqueTLCBlockFcn("InitializeConditions", 53, 523)
+%assign tlcInitializeConditionsFcnOfS53B538 = OpaqueTLCBlockFcn("InitializeConditions", 53, 538)
+%assign tlcInitializeConditionsFcnOfS53B581 = OpaqueTLCBlockFcn("InitializeConditions", 53, 581)
+%assign tlcInitializeConditionsFcnOfS53B589 = OpaqueTLCBlockFcn("InitializeConditions", 53, 589)
+/* InitializeConditions for Memory: '<S11>/Memory' */
+
+%<SLibCG_SetDWV(12, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1742, 0, 53, 1, "", -1, "", 0))>")>\
+%<tlcInitializeConditionsFcnOfS53B0>\
+/* InitializeConditions for Memory: '<S5>/Memory1' */
+
+%<SLibCG_SetDWV(13, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1745, 0, 53, 1, "", -1, "", 0))>")>\
+
+%<tlcInitializeConditionsFcnOfS53B27>\
+/* InitializeConditions for Memory: '<S4>/Memory3' */
+
+%<SLibCG_SetDWV(14, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1758, 0, 53, 1, "", -1, "", 0))>")>\
+/* InitializeConditions for Memory: '<S68>/Memory' */
+
+%<SLibCG_SetDWV(15, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1769, 0, 53, 1, "", -1, "", 0))>")>\
+%<tlcInitializeConditionsFcnOfS53B34>\
+/* InitializeConditions for Memory: '<S68>/Memory1' */
+
+%<SLibCG_SetDWV(16, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1770, 0, 53, 1, "", -1, "", 0))>")>\
+/* InitializeConditions for Memory: '<S13>/Memory' */
+
+%<SLibCG_SetDWV(17, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1771, 0, 53, 1, "", -1, "", 0))>")>\
+
+%<tlcInitializeConditionsFcnOfS53B35>\
+%<tlcInitializeConditionsFcnOfS53B36>\
+
+%<tlcInitializeConditionsFcnOfS53B37>\
+%<tlcInitializeConditionsFcnOfS53B38>\
+
+%<tlcInitializeConditionsFcnOfS53B39>\
+%<tlcInitializeConditionsFcnOfS53B40>\
+
+%<tlcInitializeConditionsFcnOfS53B41>\
+%<tlcInitializeConditionsFcnOfS53B42>\
+
+%<tlcInitializeConditionsFcnOfS53B43>\
+%<tlcInitializeConditionsFcnOfS53B44>\
+
+%<tlcInitializeConditionsFcnOfS53B45>\
+%<tlcInitializeConditionsFcnOfS53B46>\
+
+%<tlcInitializeConditionsFcnOfS53B47>\
+%<tlcInitializeConditionsFcnOfS53B48>\
+%<tlcInitializeConditionsFcnOfS53B49>\
+
+%<tlcInitializeConditionsFcnOfS53B51>\
+
+%<tlcInitializeConditionsFcnOfS53B52>\
+/* InitializeConditions for Memory: '<S7>/Memory2' */
+
+%<SLibCG_SetDWV(18, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1827, 0, 53, 1, "", -1, "", 0))>")>\
+/* InitializeConditions for Integrator: '<S2176>/Integrator' */
+
+%<(SLibCG_SE(SLibCG_CS(9, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1830, 0, 53, 1, "", -1, "", 0)))>;
+
+%<tlcInitializeConditionsFcnOfS53B57>\
+
+%<tlcInitializeConditionsFcnOfS53B58>\
+/* InitializeConditions for Memory: '<S7>/Memory' */
+
+%<SLibCG_SetDWV(19, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(1843, 0, 53, 1, "", -1, "", 0))>")>\
+
+%<tlcInitializeConditionsFcnOfS53B77>\
+%<tlcInitializeConditionsFcnOfS53B78>\
+%<tlcInitializeConditionsFcnOfS53B79>\
+/* InitializeConditions for Integrator: '<S10>/Integrator1' */
+
+%<(SLibCG_SE(SLibCG_CS(11, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1920, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S4>/Integrator3' */
+
+%<(SLibCG_SE(SLibCG_CS(12, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1922, 0, 53, 1, "", -1, "", 0)))>;
+
+%<tlcInitializeConditionsFcnOfS53B124>\
+/* InitializeConditions for Stateflow: '<S6>/Chart' */
+
+%<SLibCG_SetDWV(185, 0, 53, 1, "", -1, "", 0, "0U")>\
+%<SLibCG_SetDWV(186, 0, 53, 1, "", -1, "", 0, "0U")>\
+%<SLibCG_SetBOV(218, 0, 53, 1, "", -1, "", 0, "0.0")>\
+%<SLibCG_SetDWV(169, 0, 53, 1, "", -1, "", 0, "0U")>\
+%<SLibCG_SetDWV(170, 0, 53, 1, "", -1, "", 0, "0U")>\
+%<SLibCG_SetDWV(171, 0, 53, 1, "", -1, "", 0, "0U")>\
+/* InitializeConditions for Integrator: '<S2136>/Integrator3' */
+
+%<(SLibCG_SE(SLibCG_CS(13, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1953, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S2136>/Integrator4' */
+
+%<(SLibCG_SE(SLibCG_CS(14, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1954, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S2136>/Integrator5' */
+
+%<(SLibCG_SE(SLibCG_CS(15, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1955, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S2136>/Integrator' */
+
+%<(SLibCG_SE(SLibCG_CS(16, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1956, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S2136>/Integrator1' */
+
+%<(SLibCG_SE(SLibCG_CS(17, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1957, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S2136>/Integrator2' */
+
+%<(SLibCG_SE(SLibCG_CS(18, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1958, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S2136>/Integrator6' */
+
+%<(SLibCG_SE(SLibCG_CS(19, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1959, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S2136>/Integrator7' */
+
+%<(SLibCG_SE(SLibCG_CS(20, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1960, 0, 53, 1, "", -1, "", 0)))>;
+/* InitializeConditions for Integrator: '<S2136>/Integrator8' */
+
+%<(SLibCG_SE(SLibCG_CS(21, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCGIR_PV(1961, 0, 53, 1, "", -1, "", 0)))>;
+%<tlcInitializeConditionsFcnOfS53B168>\
+/* InitializeConditions for Stateflow: '<S2144>/Chart' */
+
+%<SLibCG_SetDWV(183, 0, 53, 1, "", -1, "", 0, "0U")>\
+%<SLibCG_SetDWV(184, 0, 53, 1, "", -1, "", 0, "0U")>\
+%<SLibCG_SetBOV(216, 0, 53, 1, "", -1, "", 0, "0.0")>\
+
+%<tlcInitializeConditionsFcnOfS53B223>\
+
+%<tlcInitializeConditionsFcnOfS53B252>\
+%<tlcInitializeConditionsFcnOfS53B267>\
+%<tlcInitializeConditionsFcnOfS53B299>\
+%<tlcInitializeConditionsFcnOfS53B314>\
+/* InitializeConditions for Stateflow: '<S36>/Chart1' */
+
+%<SLibCG_SetDWV(188, 0, 53, 1, "", -1, "", 0, "0U")>\
+%<SLibCG_SetDWV(189, 0, 53, 1, "", -1, "", 0, "0U")>\
+%<SLibCG_SetBOV(326, 0, 53, 1, "", -1, "", 0, "0.0")>\
+%<SLibCG_SetBOV(327, 0, 53, 1, "", -1, "", 0, "0.0")>\
+
+%<tlcInitializeConditionsFcnOfS53B426>\
+
+%<tlcInitializeConditionsFcnOfS53B427>\
+
+%<tlcInitializeConditionsFcnOfS53B488>\
+%<tlcInitializeConditionsFcnOfS53B523>\
+%<tlcInitializeConditionsFcnOfS53B538>\
+/* InitializeConditions for Memory: '<S4>/Memory1' */
+
+%<SLibCG_SetDWV(20, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(2006, 0, 53, 1, "", -1, "", 0))>")>\
+/* InitializeConditions for Memory: '<S4>/Memory2' */
+
+%<SLibCG_SetDWV(21, 0, 53, 1, "", -1, "", 0, "%<(SLibCGIR_PV(2007, 0, 53, 1, "", -1, "", 0))>")>\
+
+%<tlcInitializeConditionsFcnOfS53B581>\
+
+%<tlcInitializeConditionsFcnOfS53B589>\
+%endfunction

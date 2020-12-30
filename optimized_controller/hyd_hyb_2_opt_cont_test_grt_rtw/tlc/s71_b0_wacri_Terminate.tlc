@@ -1,0 +1,79 @@
+%implements s71_b0_wacri_Terminate "C"
+
+%function Terminate(block, system) Output
+%assign tlcTerminateFcnOfS53B0 = OpaqueTLCBlockFcn("Terminate", 53, 0)
+%assign tlcTerminateFcnOfS53B34 = OpaqueTLCBlockFcn("Terminate", 53, 34)
+%assign tlcTerminateFcnOfS53B35 = OpaqueTLCBlockFcn("Terminate", 53, 35)
+%assign tlcTerminateFcnOfS53B37 = OpaqueTLCBlockFcn("Terminate", 53, 37)
+%assign tlcTerminateFcnOfS53B39 = OpaqueTLCBlockFcn("Terminate", 53, 39)
+%assign tlcTerminateFcnOfS53B41 = OpaqueTLCBlockFcn("Terminate", 53, 41)
+%assign tlcTerminateFcnOfS53B43 = OpaqueTLCBlockFcn("Terminate", 53, 43)
+%assign tlcTerminateFcnOfS53B45 = OpaqueTLCBlockFcn("Terminate", 53, 45)
+%assign tlcTerminateFcnOfS53B47 = OpaqueTLCBlockFcn("Terminate", 53, 47)
+%assign tlcTerminateFcnOfS53B49 = OpaqueTLCBlockFcn("Terminate", 53, 49)
+%assign tlcTerminateFcnOfS53B50 = OpaqueTLCBlockFcn("Terminate", 53, 50)
+%assign tlcTerminateFcnOfS53B53 = OpaqueTLCBlockFcn("Terminate", 53, 53)
+%assign tlcTerminateFcnOfS53B77 = OpaqueTLCBlockFcn("Terminate", 53, 77)
+%assign tlcTerminateFcnOfS53B78 = OpaqueTLCBlockFcn("Terminate", 53, 78)
+%assign tlcTerminateFcnOfS53B79 = OpaqueTLCBlockFcn("Terminate", 53, 79)
+%assign tlcTerminateFcnOfS53B124 = OpaqueTLCBlockFcn("Terminate", 53, 124)
+%assign tlcTerminateFcnOfS53B223 = OpaqueTLCBlockFcn("Terminate", 53, 223)
+%assign tlcTerminateFcnOfS53B252 = OpaqueTLCBlockFcn("Terminate", 53, 252)
+%assign tlcTerminateFcnOfS53B267 = OpaqueTLCBlockFcn("Terminate", 53, 267)
+%assign tlcTerminateFcnOfS53B299 = OpaqueTLCBlockFcn("Terminate", 53, 299)
+%assign tlcTerminateFcnOfS53B314 = OpaqueTLCBlockFcn("Terminate", 53, 314)
+%assign tlcTerminateFcnOfS53B426 = OpaqueTLCBlockFcn("Terminate", 53, 426)
+%assign tlcTerminateFcnOfS53B427 = OpaqueTLCBlockFcn("Terminate", 53, 427)
+%assign tlcTerminateFcnOfS53B488 = OpaqueTLCBlockFcn("Terminate", 53, 488)
+%assign tlcTerminateFcnOfS53B523 = OpaqueTLCBlockFcn("Terminate", 53, 523)
+%assign tlcTerminateFcnOfS53B538 = OpaqueTLCBlockFcn("Terminate", 53, 538)
+%assign tlcTerminateFcnOfS53B581 = OpaqueTLCBlockFcn("Terminate", 53, 581)
+%assign tlcTerminateFcnOfS53B589 = OpaqueTLCBlockFcn("Terminate", 53, 589)
+
+%<tlcTerminateFcnOfS53B0>\
+
+%<tlcTerminateFcnOfS53B34>\
+
+%<tlcTerminateFcnOfS53B35>\
+
+%<tlcTerminateFcnOfS53B37>\
+
+%<tlcTerminateFcnOfS53B39>\
+
+%<tlcTerminateFcnOfS53B41>\
+
+%<tlcTerminateFcnOfS53B43>\
+
+%<tlcTerminateFcnOfS53B45>\
+
+%<tlcTerminateFcnOfS53B47>\
+%<tlcTerminateFcnOfS53B49>\
+%<tlcTerminateFcnOfS53B50>\
+
+%<tlcTerminateFcnOfS53B53>\
+
+%<tlcTerminateFcnOfS53B77>\
+%<tlcTerminateFcnOfS53B78>\
+%<tlcTerminateFcnOfS53B79>\
+
+%<tlcTerminateFcnOfS53B124>\
+
+%<tlcTerminateFcnOfS53B223>\
+
+%<tlcTerminateFcnOfS53B252>\
+%<tlcTerminateFcnOfS53B267>\
+%<tlcTerminateFcnOfS53B299>\
+%<tlcTerminateFcnOfS53B314>\
+
+%<tlcTerminateFcnOfS53B426>\
+
+%<tlcTerminateFcnOfS53B427>\
+
+%<tlcTerminateFcnOfS53B488>\
+%<tlcTerminateFcnOfS53B523>\
+%<tlcTerminateFcnOfS53B538>\
+
+%<tlcTerminateFcnOfS53B581>\
+
+%<tlcTerminateFcnOfS53B589>\
+%endfunction

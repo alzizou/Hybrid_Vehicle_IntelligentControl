@@ -1,0 +1,6 @@
+%implements s71_b0_wacri_0_InitializeConditions "C"
+
+%function InitializeConditions(block, system) Output
+%assign tlcInitializeConditionsFcnOfS9B0 = OpaqueTLCBlockFcn("InitializeConditions", 9, 0)
+%<tlcInitializeConditionsFcnOfS9B0>\
+%endfunction

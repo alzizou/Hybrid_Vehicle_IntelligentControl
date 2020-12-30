@@ -1,0 +1,20 @@
+%implements s71_b0_wacri_ModuleConstants "C"
+
+%function ModuleConstants(block) Output
+
+
+/* Named constants for Stateflow: '<S36>/Chart1' */
+#define hyd_hyb_2_opt_cont_te_IN_firstc (2U)
+#define hyd_hyb_2_opt_cont_te_IN_fourth (3U)
+#define hyd_hyb_2_opt_cont_te_IN_second (4U)
+#define hyd_hyb_2_opt_cont_tes_IN_first (1U)
+#define hyd_hyb_2_opt_cont_tes_IN_third (5U)
+
+/* Named constants for Stateflow: '<S6>/Chart' */
+#define hyd_hyb_2_opt_cont_t_IN_Neutral (2U)
+#define hyd_hyb_2_opt_cont_tes_IN_Drive (1U)
+
+/* Named constants for Stateflow: '<S2144>/Chart' */
+#define hyd_hyb_2_opt_cont_te_IN_state1 (1U)
+#define hyd_hyb_2_opt_cont_te_IN_state2 (2U)
+%endfunction

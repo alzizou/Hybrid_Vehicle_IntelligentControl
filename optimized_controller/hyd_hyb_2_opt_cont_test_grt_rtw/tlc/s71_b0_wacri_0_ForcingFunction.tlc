@@ -1,0 +1,10 @@
+%implements s71_b0_wacri_0_ForcingFunction "C"
+
+%function ForcingFunction(block, system) Output
+%assign tlcForcingFunctionFcnOfS9B0 = OpaqueTLCBlockFcn("ForcingFunction", 9, 0)
+if (%<(SLibCG_DWV(193, 0, 9, 1, "", -1, "", 0))>) {
+%<tlcForcingFunctionFcnOfS9B0>\
+} else {
+%<SLibCGIRZeroOutDerivativesForSystem(9, 53, 352)>\
+}
+%endfunction

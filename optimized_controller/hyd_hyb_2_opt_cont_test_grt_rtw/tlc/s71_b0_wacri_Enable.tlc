@@ -1,0 +1,8 @@
+%implements s71_b0_wacri_Enable "C"
+
+%function Enable(block, system) Output
+/* Enable for Stateflow: '<S6>/Chart' */
+
+%<SLibCG_SetDWV(169, 0, 53, 1, "", -1, "", 0, "%<LibGetClockTick(1)>")>\
+%<SLibCG_SetDWV(171, 0, 53, 1, "", -1, "", 0, "%<(SLibCG_DWV(169, 0, 53, 1, "", -1, "", 0))>")>\
+%endfunction

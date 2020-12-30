@@ -1,0 +1,60 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   8 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "isStable"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "is_active_c1_hyd_hyb_2_opt_cont_online"\
+      SFName       "is_active_c1_hyd_hyb_2_opt_cont_online"\
+      Path         "is_active_c1_hyd_hyb_2_opt_cont_online"\
+      IsTestPoint  1\
+    }\
+    ChartData {\
+      Name         "is_c1_hyd_hyb_2_opt_cont_online"\
+      SFName       "is_c1_hyd_hyb_2_opt_cont_online"\
+      Path         "is_c1_hyd_hyb_2_opt_cont_online"\
+      IsTestPoint  1\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "presentTicks"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "elapsedTicks"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "previousTicks"\
+      SFName       ""\
+      Path         ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

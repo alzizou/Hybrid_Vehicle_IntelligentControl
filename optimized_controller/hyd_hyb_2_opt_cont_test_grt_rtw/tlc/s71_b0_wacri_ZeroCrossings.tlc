@@ -1,0 +1,50 @@
+%implements s71_b0_wacri_ZeroCrossings "C"
+
+%function ZeroCrossings(block, system) Output
+/* ZeroCrossings for If: '<S2164>/If' */
+
+%<SLibCGIRZeroOutZeroCrossingsForSystem(53, 53, 23)>\
+/* ZeroCrossings for If: '<S2164>/If1' */
+
+%<SLibCGIRZeroOutZeroCrossingsForSystem(53, 53, 24)>\
+/* ZeroCrossings for If: '<S2164>/If2' */
+
+%<SLibCGIRZeroOutZeroCrossingsForSystem(53, 53, 25)>\
+/* ZeroCrossings for If: '<S141>/If' */
+
+%<SLibCGIRZeroOutZeroCrossingsForSystem(53, 53, 28)>\
+%<SLibCGIRZeroOutZeroCrossingsForSystem(53, 53, 29)>\
+if (%<(SLibCG_SE(SLibCG_DWV(179, 0, 53, 1, "", -1, "", 0)))> == 1) {
+    /* ZeroCrossings for IfAction SubSystem: '<S141>/SOC upper 0.5' incorporates:
+ *  ZeroCrossings for ActionPort: '<S146>/Action Port'
+ */
+    /* ZeroCrossings for If: '<S146>/If' */
+
+%<SLibCGIRZeroOutZeroCrossingsForSystem(34, 34, 0)>\
+%<SLibCGIRZeroOutZeroCrossingsForSystem(34, 34, 1)>\
+    if (%<(SLibCG_SE(SLibCG_DWV(180, 0, 53, 1, "", -1, "", 0)))> == 1) {
+        /* ZeroCrossings for IfAction SubSystem: '<S146>/SOC upper 0.6' incorporates:
+ *  ZeroCrossings for ActionPort: '<S503>/Action Port'
+ */
+        /* ZeroCrossings for If: '<S503>/If' */
+
+%<SLibCGIRZeroOutZeroCrossingsForSystem(33, 33, 0)>\
+%<SLibCGIRZeroOutZeroCrossingsForSystem(33, 33, 1)>\
+        if (%<(SLibCG_SE(SLibCG_DWV(181, 0, 53, 1, "", -1, "", 0)))> == 1) {
+            /* ZeroCrossings for IfAction SubSystem: '<S503>/SOC upper 0.7' incorporates:
+ *  ZeroCrossings for ActionPort: '<S842>/Action Port'
+ */
+            /* ZeroCrossings for If: '<S842>/If' */
+
+%<SLibCGIRZeroOutZeroCrossingsForSystem(32, 32, 0)>\
+%<SLibCGIRZeroOutZeroCrossingsForSystem(32, 32, 1)>\
+            /* End of ZeroCrossings for SubSystem: '<S503>/SOC upper 0.7' */
+        }
+        /* End of If: '<S503>/If' */
+        /* End of ZeroCrossings for SubSystem: '<S146>/SOC upper 0.6' */
+    }
+    /* End of If: '<S146>/If' */
+    /* End of ZeroCrossings for SubSystem: '<S141>/SOC upper 0.5' */
+}
+/* End of If: '<S141>/If' */
+%endfunction

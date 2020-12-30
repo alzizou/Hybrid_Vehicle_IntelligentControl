@@ -1,0 +1,228 @@
+%implements s71_b0_wacri_Derivatives "C"
+
+%function Derivatives(block, system) Output
+%assign tlcDerivativesFcnOfS53B0 = OpaqueTLCBlockFcn("Derivatives", 53, 0)
+%assign tlcDerivativesFcnOfS53B27 = OpaqueTLCBlockFcn("Derivatives", 53, 27)
+%assign tlcDerivativesFcnOfS53B34 = OpaqueTLCBlockFcn("Derivatives", 53, 34)
+%assign tlcDerivativesFcnOfS53B35 = OpaqueTLCBlockFcn("Derivatives", 53, 35)
+%assign tlcDerivativesFcnOfS53B36 = OpaqueTLCBlockFcn("Derivatives", 53, 36)
+%assign tlcDerivativesFcnOfS53B37 = OpaqueTLCBlockFcn("Derivatives", 53, 37)
+%assign tlcDerivativesFcnOfS53B38 = OpaqueTLCBlockFcn("Derivatives", 53, 38)
+%assign tlcDerivativesFcnOfS53B39 = OpaqueTLCBlockFcn("Derivatives", 53, 39)
+%assign tlcDerivativesFcnOfS53B40 = OpaqueTLCBlockFcn("Derivatives", 53, 40)
+%assign tlcDerivativesFcnOfS53B41 = OpaqueTLCBlockFcn("Derivatives", 53, 41)
+%assign tlcDerivativesFcnOfS53B42 = OpaqueTLCBlockFcn("Derivatives", 53, 42)
+%assign tlcDerivativesFcnOfS53B43 = OpaqueTLCBlockFcn("Derivatives", 53, 43)
+%assign tlcDerivativesFcnOfS53B44 = OpaqueTLCBlockFcn("Derivatives", 53, 44)
+%assign tlcDerivativesFcnOfS53B45 = OpaqueTLCBlockFcn("Derivatives", 53, 45)
+%assign tlcDerivativesFcnOfS53B46 = OpaqueTLCBlockFcn("Derivatives", 53, 46)
+%assign tlcDerivativesFcnOfS53B47 = OpaqueTLCBlockFcn("Derivatives", 53, 47)
+%assign tlcDerivativesFcnOfS53B48 = OpaqueTLCBlockFcn("Derivatives", 53, 48)
+%assign tlcDerivativesFcnOfS53B49 = OpaqueTLCBlockFcn("Derivatives", 53, 49)
+%assign tlcDerivativesFcnOfS53B52 = OpaqueTLCBlockFcn("Derivatives", 53, 52)
+%assign tlcDerivativesFcnOfS53B58 = OpaqueTLCBlockFcn("Derivatives", 53, 58)
+%assign tlcDerivativesFcnOfS53B77 = OpaqueTLCBlockFcn("Derivatives", 53, 77)
+%assign tlcDerivativesFcnOfS53B78 = OpaqueTLCBlockFcn("Derivatives", 53, 78)
+%assign tlcDerivativesFcnOfS53B79 = OpaqueTLCBlockFcn("Derivatives", 53, 79)
+%assign tlcDerivativesFcnOfS53B124 = OpaqueTLCBlockFcn("Derivatives", 53, 124)
+%assign tlcDerivativesFcnOfS53B223 = OpaqueTLCBlockFcn("Derivatives", 53, 223)
+%assign tlcDerivativesFcnOfS53B252 = OpaqueTLCBlockFcn("Derivatives", 53, 252)
+%assign tlcDerivativesFcnOfS53B267 = OpaqueTLCBlockFcn("Derivatives", 53, 267)
+%assign tlcDerivativesFcnOfS53B299 = OpaqueTLCBlockFcn("Derivatives", 53, 299)
+%assign tlcDerivativesFcnOfS53B314 = OpaqueTLCBlockFcn("Derivatives", 53, 314)
+%assign tlcDerivativesFcnOfS53B426 = OpaqueTLCBlockFcn("Derivatives", 53, 426)
+%assign tlcDerivativesFcnOfS53B427 = OpaqueTLCBlockFcn("Derivatives", 53, 427)
+%assign tlcDerivativesFcnOfS53B488 = OpaqueTLCBlockFcn("Derivatives", 53, 488)
+%assign tlcDerivativesFcnOfS53B523 = OpaqueTLCBlockFcn("Derivatives", 53, 523)
+%assign tlcDerivativesFcnOfS53B538 = OpaqueTLCBlockFcn("Derivatives", 53, 538)
+%assign tlcDerivativesFcnOfS53B581 = OpaqueTLCBlockFcn("Derivatives", 53, 581)
+%assign tlcDerivativesFcnOfS53B589 = OpaqueTLCBlockFcn("Derivatives", 53, 589)
+
+%<tlcDerivativesFcnOfS53B0>\
+/* Derivatives for If: '<S2164>/If' */
+
+%<SLibCGIRZeroOutDerivativesForSystem(53, 53, 23)>\
+/* Derivatives for If: '<S2164>/If1' */
+
+%<SLibCGIRZeroOutDerivativesForSystem(53, 53, 24)>\
+/* Derivatives for If: '<S2164>/If2' */
+
+%<SLibCGIRZeroOutDerivativesForSystem(53, 53, 25)>\
+
+%<tlcDerivativesFcnOfS53B27>\
+/* Derivatives for If: '<S141>/If' */
+
+%<SLibCGIRZeroOutDerivativesForSystem(53, 53, 28)>\
+%<SLibCGIRZeroOutDerivativesForSystem(53, 53, 29)>\
+
+%<tlcDerivativesFcnOfS53B34>\
+
+%<tlcDerivativesFcnOfS53B35>\
+%<tlcDerivativesFcnOfS53B36>\
+
+%<tlcDerivativesFcnOfS53B37>\
+%<tlcDerivativesFcnOfS53B38>\
+
+%<tlcDerivativesFcnOfS53B39>\
+%<tlcDerivativesFcnOfS53B40>\
+
+%<tlcDerivativesFcnOfS53B41>\
+%<tlcDerivativesFcnOfS53B42>\
+
+%<tlcDerivativesFcnOfS53B43>\
+%<tlcDerivativesFcnOfS53B44>\
+
+%<tlcDerivativesFcnOfS53B45>\
+%<tlcDerivativesFcnOfS53B46>\
+
+%<tlcDerivativesFcnOfS53B47>\
+%<tlcDerivativesFcnOfS53B48>\
+%<tlcDerivativesFcnOfS53B49>\
+
+%<tlcDerivativesFcnOfS53B52>\
+/* Derivatives for Integrator: '<S2176>/Integrator' */
+
+%<(SLibCG_SE(SLibCG_DRV(9, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(185, 0, 53, 1, "", -1, "", 0)))>;
+
+%<tlcDerivativesFcnOfS53B58>\
+
+%<tlcDerivativesFcnOfS53B77>\
+%<tlcDerivativesFcnOfS53B78>\
+%<tlcDerivativesFcnOfS53B79>\
+/* Derivatives for Integrator: '<S10>/Integrator1' */
+
+%<(SLibCG_SE(SLibCG_DRV(11, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(142, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S4>/Integrator3' */
+
+%<(SLibCG_SE(SLibCG_DRV(12, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(194, 0, 53, 1, "", -1, "", 0)))>;
+
+%<tlcDerivativesFcnOfS53B124>\
+/* Derivatives for Integrator: '<S2136>/Integrator3' */
+
+%<(SLibCG_SE(SLibCG_DRV(13, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(173, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S2136>/Integrator4' */
+
+%<(SLibCG_SE(SLibCG_DRV(14, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(174, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S2136>/Integrator5' */
+
+%<(SLibCG_SE(SLibCG_DRV(15, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(166, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S2136>/Integrator' */
+
+%<(SLibCG_SE(SLibCG_DRV(16, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(171, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S2136>/Integrator1' */
+
+%<(SLibCG_SE(SLibCG_DRV(17, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(172, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S2136>/Integrator2' */
+
+%<(SLibCG_SE(SLibCG_DRV(18, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(163, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S2136>/Integrator6' */
+
+%<(SLibCG_SE(SLibCG_DRV(19, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(175, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S2136>/Integrator7' */
+
+%<(SLibCG_SE(SLibCG_DRV(20, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(176, 0, 53, 1, "", -1, "", 0)))>;
+/* Derivatives for Integrator: '<S2136>/Integrator8' */
+
+%<(SLibCG_SE(SLibCG_DRV(21, 0, 53, 1, -1, "", 0)))> = %<(SLibCG_SE(SLibCG_BOV(167, 0, 53, 1, "", -1, "", 0)))>;
+
+%<tlcDerivativesFcnOfS53B223>\
+
+%<tlcDerivativesFcnOfS53B252>\
+%<tlcDerivativesFcnOfS53B267>\
+%<tlcDerivativesFcnOfS53B299>\
+%<tlcDerivativesFcnOfS53B314>\
+%assign   Derivatives_open_EnabledSubsystem1_53_572 = ""
+%openfile Derivatives_open_EnabledSubsystem1_53_572
+
+/* Derivatives for Enabled SubSystem: '<S103>/Enabled Subsystem1' */
+%closefile Derivatives_open_EnabledSubsystem1_53_572
+
+%assign    Derivatives_body_EnabledSubsystem1_53_572 = ""
+%openfile  Derivatives_body_EnabledSubsystem1_53_572
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 0, 5, 0, 5, 53)>\
+%closefile Derivatives_body_EnabledSubsystem1_53_572
+
+%assign    Derivatives_close_EnabledSubsystem1_53_572 = ""
+%openfile  Derivatives_close_EnabledSubsystem1_53_572
+
+/* End of Derivatives for SubSystem: '<S103>/Enabled Subsystem1' */
+%closefile Derivatives_close_EnabledSubsystem1_53_572
+%<SLibCG_DumpSSCode(Derivatives_open_EnabledSubsystem1_53_572, Derivatives_body_EnabledSubsystem1_53_572, Derivatives_close_EnabledSubsystem1_53_572)>
+
+
+%assign   Derivatives_open_EnabledSubsystem2_53_574 = ""
+%openfile Derivatives_open_EnabledSubsystem2_53_574
+
+/* Derivatives for Enabled SubSystem: '<S103>/Enabled Subsystem2' */
+%closefile Derivatives_open_EnabledSubsystem2_53_574
+
+%assign    Derivatives_body_EnabledSubsystem2_53_574 = ""
+%openfile  Derivatives_body_EnabledSubsystem2_53_574
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 1, 5, 0, 5, 53)>\
+%closefile Derivatives_body_EnabledSubsystem2_53_574
+
+%assign    Derivatives_close_EnabledSubsystem2_53_574 = ""
+%openfile  Derivatives_close_EnabledSubsystem2_53_574
+
+/* End of Derivatives for SubSystem: '<S103>/Enabled Subsystem2' */
+%closefile Derivatives_close_EnabledSubsystem2_53_574
+%<SLibCG_DumpSSCode(Derivatives_open_EnabledSubsystem2_53_574, Derivatives_body_EnabledSubsystem2_53_574, Derivatives_close_EnabledSubsystem2_53_574)>
+
+
+%assign   Derivatives_open_EnabledSubsystem3_53_576 = ""
+%openfile Derivatives_open_EnabledSubsystem3_53_576
+
+/* Derivatives for Enabled SubSystem: '<S103>/Enabled Subsystem3' */
+%closefile Derivatives_open_EnabledSubsystem3_53_576
+
+%assign    Derivatives_body_EnabledSubsystem3_53_576 = ""
+%openfile  Derivatives_body_EnabledSubsystem3_53_576
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 2, 5, 0, 5, 53)>\
+%closefile Derivatives_body_EnabledSubsystem3_53_576
+
+%assign    Derivatives_close_EnabledSubsystem3_53_576 = ""
+%openfile  Derivatives_close_EnabledSubsystem3_53_576
+
+/* End of Derivatives for SubSystem: '<S103>/Enabled Subsystem3' */
+%closefile Derivatives_close_EnabledSubsystem3_53_576
+%<SLibCG_DumpSSCode(Derivatives_open_EnabledSubsystem3_53_576, Derivatives_body_EnabledSubsystem3_53_576, Derivatives_close_EnabledSubsystem3_53_576)>
+
+
+%assign   Derivatives_open_EnabledSubsystem4_53_578 = ""
+%openfile Derivatives_open_EnabledSubsystem4_53_578
+
+/* Derivatives for Enabled SubSystem: '<S103>/Enabled Subsystem4' */
+%closefile Derivatives_open_EnabledSubsystem4_53_578
+
+%assign    Derivatives_body_EnabledSubsystem4_53_578 = ""
+%openfile  Derivatives_body_EnabledSubsystem4_53_578
+
+
+%<SLibCGIRGenReusableSysCallNoCGIRArgs(9, 3, 5, 0, 5, 53)>\
+%closefile Derivatives_body_EnabledSubsystem4_53_578
+
+%assign    Derivatives_close_EnabledSubsystem4_53_578 = ""
+%openfile  Derivatives_close_EnabledSubsystem4_53_578
+
+/* End of Derivatives for SubSystem: '<S103>/Enabled Subsystem4' */
+%closefile Derivatives_close_EnabledSubsystem4_53_578
+%<SLibCG_DumpSSCode(Derivatives_open_EnabledSubsystem4_53_578, Derivatives_body_EnabledSubsystem4_53_578, Derivatives_close_EnabledSubsystem4_53_578)>
+
+%<tlcDerivativesFcnOfS53B426>\
+
+%<tlcDerivativesFcnOfS53B427>\
+
+%<tlcDerivativesFcnOfS53B488>\
+%<tlcDerivativesFcnOfS53B523>\
+%<tlcDerivativesFcnOfS53B538>\
+
+%<tlcDerivativesFcnOfS53B581>\
+
+%<tlcDerivativesFcnOfS53B589>\
+%endfunction
